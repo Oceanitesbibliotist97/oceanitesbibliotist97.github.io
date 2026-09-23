@@ -1,33 +1,27 @@
-# Yeon-Jae Kim — GitHub Pages Portfolio
+# Yeon-Jae Kim — Personal Research Website v2
 
-This folder is ready to push to `blue-puma/blue-puma.github.io`.
+This version is intentionally not a web-formatted CV.
+
+The main narrative is:
+
+**3D understanding → spatial reasoning → physically executable action**
+
+It presents the research identity first and keeps chronology/details secondary.
 
 ## Files
 
-- `index.html` — page content
-- `style.css` — responsive visual styling
-- `assets/CV_YeonjaeKim_2026_public.pdf` — downloadable CV
+- `index.html`
+- `style.css`
+- `assets/CV_YeonjaeKim_2026_public.pdf`
 
 ## Deploy
 
-Replace the existing files in your local GitHub Pages folder with these files, then run:
+Copy these files into your local `blue-puma.github.io` repository and run:
 
 ```powershell
 git add .
-git commit -m "Redesign academic portfolio"
+git commit -m "Reframe portfolio around robotics research identity"
 git push
 ```
 
-GitHub Pages should rebuild automatically.
-
-## Customize later
-
-Common edits are all in `index.html`:
-
-- Hero summary
-- Research interests
-- Publications
-- Contact links
-- Education and experience
-
-The page intentionally uses only HTML and CSS, with no framework or build step.
+No framework or build process is required.
