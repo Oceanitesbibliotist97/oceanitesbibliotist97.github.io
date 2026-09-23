@@ -33,3 +33,12 @@ git add .
 git commit -m "Redesign homepage with profile-first research layout"
 git push
 ```
+
+
+## v6 typography refinements
+
+- Profile image reduced to ~185 × 215 px on desktop
+- More restrained name and section-heading sizes
+- Tighter, more consistent body/intro scale
+- Slightly smaller cards and visual panels
+- Reduced section spacing for a calmer academic layout
