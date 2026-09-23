@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #fafafa;
+}
+
+header,
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+header {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 80px;
+  font-size: 32px;
+}
+
+article {
+  margin: 30px 0;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+}
+
+a {
+  color: #222;
+}
