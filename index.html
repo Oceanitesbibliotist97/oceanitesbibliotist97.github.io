@@ -1,51 +1,431 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>홍길동 | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Yeon-Jae Kim | Robotics & Generative Manufacturing</title>
+  <meta
+    name="description"
+    content="Academic portfolio of Yeon-Jae Kim, a mechanical engineering researcher at Yonsei University working on 3D-aware robot learning, generative models, and intelligent manufacturing."
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Back to top">YJK</a>
 
-  <header>
-    <h1>홍길동</h1>
-    <p>Designer · Developer · Creator</p>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="assets/CV_YeonjaeKim_2026_public.pdf" target="_blank" rel="noreferrer">CV</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p>
-        안녕하세요. 저는 새로운 경험을 만드는 것을 좋아하는
-        개발자입니다.
-      </p>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Mechanical Engineering · Robotics · Generative AI</p>
+
+          <h1>Yeon-Jae Kim</h1>
+
+          <p class="hero-lead">
+            Researcher at Yonsei University working on
+            <strong>3D-aware robot learning</strong>,
+            <strong>generative models</strong>, and
+            <strong>intelligent design-to-manufacturing automation</strong>.
+          </p>
+
+          <p class="hero-note">
+            My research focuses on connecting geometric understanding,
+            generative intelligence, and robotic execution to build adaptive
+            manufacturing systems that can reason about 3D structure and act
+            reliably in the physical world.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">View research</a>
+            <a
+              class="button button-secondary"
+              href="assets/CV_YeonjaeKim_2026_public.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-meta" aria-label="Profile details">
+          <div class="meta-block">
+            <span class="meta-label">Current role</span>
+            <p>Research Associate</p>
+            <p>Manufacturing &amp; Mechatronics Lab</p>
+            <p>Yonsei University</p>
+          </div>
+
+          <div class="meta-block">
+            <span class="meta-label">Location</span>
+            <p>Seoul, Republic of Korea</p>
+          </div>
+
+          <div class="meta-block">
+            <span class="meta-label">Contact</span>
+            <p>
+              <a href="mailto:yeonjaekim@yonsei.ac.kr">
+                yeonjaekim@yonsei.ac.kr
+              </a>
+            </p>
+            <p>
+              <a
+                href="https://github.com/blue-puma"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </p>
+          </div>
+        </aside>
+      </div>
     </section>
 
-    <section>
-      <h2>Projects</h2>
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2>Research interests</h2>
+          <p class="section-intro">
+            I study how machines can understand 3D environments, generate
+            feasible actions, and translate high-level design intent into
+            executable manufacturing processes.
+          </p>
+        </div>
 
-      <article>
-        <h3>Project A</h3>
-        <p>프로젝트에 대한 간단한 설명</p>
-        <a href="https://github.com/">View Project</a>
-      </article>
+        <div class="research-grid">
+          <article class="research-card">
+            <div class="card-index">01</div>
+            <h3>3D-Aware Robot Learning for Real-World Execution</h3>
+            <p>
+              Learning-based robotic assembly and manipulation with explicit
+              3D scene understanding and geometry-aware decision making.
+            </p>
+            <ul>
+              <li>3D object understanding for robotic assembly</li>
+              <li>Constraint-aware trajectory generation</li>
+              <li>Online collision-aware motion planning</li>
+              <li>Real-time 3D scene representations</li>
+            </ul>
+          </article>
 
-      <article>
-        <h3>Project B</h3>
-        <p>프로젝트에 대한 간단한 설명</p>
-      </article>
+          <article class="research-card">
+            <div class="card-index">02</div>
+            <h3>Generative Models for 3D Design &amp; Manufacturing</h3>
+            <p>
+              Generative intelligence for automated conceptual design,
+              spatial reasoning, part arrangement, and adaptive production.
+            </p>
+            <ul>
+              <li>Diffusion-guided 3D part assembly</li>
+              <li>Spatial reasoning and pose optimization</li>
+              <li>Design parameter optimization</li>
+              <li>Design-to-manufacturing automation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: hello@example.com</p>
-      <p>
-        <a href="https://github.com/">GitHub</a>
-      </p>
+    <section class="section section-muted" id="experience">
+      <div class="container two-column">
+        <div class="section-heading compact">
+          <p class="eyebrow">Experience</p>
+          <h2>Research experience</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">Sep 2026 — Present</div>
+            <div>
+              <h3>Research Associate</h3>
+              <p class="institution">
+                Manufacturing &amp; Mechatronics Lab, Engineering Research
+                Institute, Yonsei University
+              </p>
+              <p class="detail">Advisor: Prof. Byung-Kwon Min</p>
+              <p>
+                Research on online collision-aware trajectory generation using
+                real-time 3D scene representations.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">Sep 2024 — Aug 2026</div>
+            <div>
+              <h3>Graduate Research Assistant</h3>
+              <p class="institution">
+                Manufacturing &amp; Mechatronics Lab, Yonsei University
+              </p>
+              <p class="detail">Advisor: Prof. Byung-Kwon Min</p>
+              <p>
+                Developed generative AI methods for automated conceptual
+                design, 3D part assembly, and diffusion-based optimization
+                within a hyperconnected manufacturing research project.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">Mar 2023 — Feb 2024</div>
+            <div>
+              <h3>Undergraduate Research Assistant</h3>
+              <p class="institution">
+                Human-Centered AI Robotics Lab, Yonsei University
+              </p>
+              <p class="detail">Advisor: Prof. Dongjun Shin</p>
+              <p>
+                Designed and experimentally evaluated a continuous variable
+                transmission mechanism for twisted string actuators.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2>Selected research output</h2>
+          <p class="section-intro">
+            Current work spans 3D part assembly, manufacturing process
+            planning, robot motion planning, and geometry-aware trajectory
+            generation.
+          </p>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication">
+            <div class="pub-year">2026</div>
+            <div>
+              <p class="pub-type">Journal submission</p>
+              <h3>
+                VA-Assembly: View-Aligned Score Guidance for Training-Free 3D
+                Part Assembly
+              </h3>
+              <p>
+                <strong>Yeon-Jae Kim</strong>, Sangwon Kang, Byung-Kwon Min.
+              </p>
+              <p class="detail">
+                Submitted to the International Journal of Computer Vision.
+              </p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2026</div>
+            <div>
+              <p class="pub-type">Journal submission</p>
+              <h3>
+                A Graph Transformer-based Agent for Feature-free Machining
+                Process Planning
+              </h3>
+              <p>
+                In-Wook Oh, Sangwon Kang, Hee-Min Shin,
+                <strong>Yeon-Jae Kim</strong>, Soon-Hong Hwang, Byung-Kwon Min.
+              </p>
+              <p class="detail">
+                Submitted to the Journal of Manufacturing Systems.
+              </p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2026</div>
+            <div>
+              <p class="pub-type">Conference · Accepted</p>
+              <h3>
+                6-DOF Robot Motion Planning Using an Adaptive Gaussian
+                Collision Model
+              </h3>
+              <p>
+                <strong>Yeon-Jae Kim</strong>, Sangwon Kang, Byung-Kwon Min.
+              </p>
+              <p class="detail">
+                Korean Society of Precision Engineering Fall Conference,
+                poster presentation.
+              </p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2026</div>
+            <div>
+              <p class="pub-type">Conference · Oral presentation</p>
+              <h3>
+                3D Part Arrangement for Automated Conceptual Design in
+                Multi-variant Product Manufacturing
+              </h3>
+              <p>
+                <strong>Yeon-Jae Kim</strong>, Sangwon Kang, Byung-Kwon Min.
+              </p>
+              <p class="detail">
+                KSPE Spring Conference, special session on Autonomous
+                Manufacturing.
+              </p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2025</div>
+            <div>
+              <p class="pub-type">Conference · Poster presentation</p>
+              <h3>
+                Machining Process Planning Model based on Graph Transformer
+              </h3>
+              <p>
+                In-Wook Oh, Sangwon Kang, Hee-Min Shin,
+                <strong>Yeon-Jae Kim</strong>, Byung-Seok Kim, Soon-Hong Hwang,
+                Byung-Kwon Min.
+              </p>
+              <p class="detail">
+                International Conference on Precision Engineering and
+                Sustainable Manufacturing (PRESM).
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-cta">
+          <a
+            class="text-link"
+            href="assets/CV_YeonjaeKim_2026_public.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View complete publication, conference, and patent list →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="education">
+      <div class="container two-column">
+        <div>
+          <div class="section-heading compact">
+            <p class="eyebrow">Education</p>
+            <h2>Academic background</h2>
+          </div>
+
+          <div class="stack-list">
+            <article>
+              <div class="timeline-date">Sep 2024 — Aug 2026</div>
+              <h3>M.S. in Mechanical Engineering</h3>
+              <p class="institution">Yonsei University</p>
+              <p class="detail">
+                Thesis: Generative Framework for Automated Conceptual Design
+                in Multi-variant Product Manufacturing
+              </p>
+              <p class="detail">Advisor: Prof. Byung-Kwon Min</p>
+            </article>
+
+            <article>
+              <div class="timeline-date">Mar 2022 — Aug 2024</div>
+              <h3>B.S. in Mechanical Engineering</h3>
+              <p class="institution">Yonsei University</p>
+            </article>
+
+            <article>
+              <div class="timeline-date">Mar 2019 — Feb 2021</div>
+              <h3>B.S. in Mechanical Engineering</h3>
+              <p class="institution">Dankook University</p>
+            </article>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-heading compact">
+            <p class="eyebrow">Recognition &amp; Skills</p>
+            <h2>Selected highlights</h2>
+          </div>
+
+          <div class="info-block">
+            <h3>Recognition</h3>
+            <p>
+              KSPE 2026 Spring Outstanding Presentation Award
+            </p>
+          </div>
+
+          <div class="info-block">
+            <h3>Teaching</h3>
+            <p>
+              Teaching Assistant, Mechatronics, Yonsei University
+              (Sep–Dec 2024)
+            </p>
+          </div>
+
+          <div class="info-block">
+            <h3>Technical skills</h3>
+            <div class="tags" aria-label="Technical skills">
+              <span>Python</span>
+              <span>PyTorch</span>
+              <span>MATLAB</span>
+              <span>Simulink</span>
+              <span>C/C++</span>
+              <span>Diffusion Models</span>
+              <span>Gaussian Splatting</span>
+              <span>SolidWorks</span>
+              <span>Blender</span>
+              <span>Jetson</span>
+              <span>Raspberry Pi</span>
+              <span>Arduino</span>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <h3>Patents</h3>
+            <p>
+              Five pending Korean and PCT patent applications in generative
+              design automation and intelligent manufacturing process planning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-wrap">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Research conversations and collaboration</h2>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:yeonjaekim@yonsei.ac.kr">
+            yeonjaekim@yonsei.ac.kr
+          </a>
+          <a href="https://github.com/blue-puma" target="_blank" rel="noreferrer">
+            github.com/blue-puma
+          </a>
+        </div>
+      </div>
     </section>
   </main>
 
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Yeon-Jae Kim</p>
+      <p>Built for GitHub Pages.</p>
+    </div>
+  </footer>
 </body>
 </html>
