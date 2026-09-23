@@ -1,27 +1,35 @@
-# Yeon-Jae Kim — Personal Research Website v2
+# Yeon-Jae Kim — Personal Research Website v5
 
-This version is intentionally not a web-formatted CV.
+This version is profile-first and is structured like a modern robotics/AI researcher homepage.
 
-The main narrative is:
+## Profile image
 
-**3D understanding → spatial reasoning → physically executable action**
+Put your photo here:
 
-It presents the research identity first and keeps chronology/details secondary.
+```text
+images/profile.jpg
+```
 
-## Files
+Recommended:
+- portrait crop
+- around 4:5 aspect ratio
+- 800 px or larger
+- leave a little space around the head and shoulders
 
-- `index.html`
-- `style.css`
-- `assets/CV_YeonjaeKim_2026_public.pdf`
+The site displays it at approximately 240 × 280 px on desktop.
+
+## Structure
+
+1. Profile / research identity
+2. Three core research directions
+3. Selected current work
+4. Research philosophy / background
+5. Contact
 
 ## Deploy
 
-Copy these files into your local `blue-puma.github.io` repository and run:
-
 ```powershell
 git add .
-git commit -m "Reframe portfolio around robotics research identity"
+git commit -m "Redesign homepage with profile-first research layout"
 git push
 ```
-
-No framework or build process is required.
