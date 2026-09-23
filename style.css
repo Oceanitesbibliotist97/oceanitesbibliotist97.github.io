@@ -76,9 +76,24 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-size: 14px;
   font-weight: 750;
   letter-spacing: -0.02em;
+}
+
+.nav-profile-photo {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid rgba(17, 21, 18, 0.12);
+  border-radius: 50%;
+  background: #dfe4df;
 }
 
 .nav {
@@ -143,45 +158,6 @@ p {
   margin-top: 0;
 }
 
-.identity {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  margin-bottom: 34px;
-}
-
-.profile-photo {
-  width: 92px;
-  height: 92px;
-  flex: 0 0 auto;
-  display: block;
-  object-fit: cover;
-  object-position: center;
-  border: 1px solid rgba(17, 21, 18, 0.14);
-  border-radius: 24px;
-  background: #dfe4df;
-  box-shadow: 0 12px 28px rgba(28, 46, 37, 0.10);
-}
-
-.identity-copy {
-  min-width: 0;
-}
-
-.identity-name {
-  margin: 0 0 5px;
-  font-size: clamp(1.55rem, 2.5vw, 2.05rem);
-  line-height: 1.05;
-  letter-spacing: -0.04em;
-  font-weight: 760;
-}
-
-.identity-meta {
-  margin: 0;
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.035em;
-}
 
 h1 {
   max-width: 850px;
@@ -870,6 +846,17 @@ h2 {
     font-size: 11px;
   }
 
+  .brand {
+    gap: 8px;
+    font-size: 13px;
+  }
+
+  .nav-profile-photo {
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
+  }
+
   .nav a:nth-child(2),
   .nav a:nth-child(3) {
     display: none;
@@ -877,27 +864,6 @@ h2 {
 
   .hero {
     padding-top: 72px;
-  }
-
-  .identity {
-    gap: 14px;
-    margin-bottom: 28px;
-  }
-
-  .profile-photo {
-    width: 76px;
-    height: 76px;
-    border-radius: 20px;
-  }
-
-  .identity-name {
-    font-size: 1.45rem;
-  }
-
-  .identity-meta {
-    max-width: 260px;
-    font-size: 10px;
-    line-height: 1.45;
   }
 
   h1 {
